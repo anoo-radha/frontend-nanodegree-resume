@@ -41,8 +41,8 @@ h2 {
 
 h3 {
   font-style: italic;
-  font-size: 20px;
-  color: #000;
+  font-size: 16px;
+  color: #999;
   line-height: 22px;
 }
 
@@ -79,6 +79,10 @@ h5 {
 
 }
 
+hr{
+  border: 1px solid #ddd;
+}
+
 p {
   font-size: 14px;
   color: #333;
@@ -89,7 +93,7 @@ a {
   color: #1199c3;
   text-decoration: none;
   margin-top: 10px;
-  display: block;
+  /*display: block;*/
 }
 
 .welcome-message {
@@ -111,7 +115,13 @@ a {
 .orange-text {
   color: #f5ae23;
 }
-
+.green-text {
+  color: #a4c639;
+}
+.title-text {
+  /*color: #1568A6;*/
+  color:#D2A678;
+}
 .white-text {
   font-weight: bold;
   color: #fff;
